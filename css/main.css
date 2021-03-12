@@ -1,0 +1,23 @@
+div.omokPlate {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+div.omokPlate tr td {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+div.omokPlate td div{
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+div.omokPlate td div.black {
+  background-color: black;
+}
+
+div.omokPlate td div.white {
+  background-color: white;
+}

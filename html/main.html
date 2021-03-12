@@ -1,0 +1,19 @@
+<html>
+    <head>
+      <style type="text/css">
+        @import url("../css/main.css");
+      </style>
+    </head>
+    <body>
+      <div id="omokPlate" class="omokPlate">
+        
+      </div>
+      <script type="module">
+        import Omok from '../js/Omok.js';
+        window.addEventListener('DOMContentLoaded', function() {
+          let plate = document.getElementById("omokPlate");
+          let omok = new Omok(plate);
+        });
+      </script>
+    </body>
+</html>
